@@ -1,8 +1,6 @@
-![image](https://github.com/bicheondev/tetrio-translator/assets/44262309/d0a65e64-d9d3-41b9-80bf-3c11c38e52c1)
-
 # tetrio-translator
 
-<img src="https://github.com/bicheondev/tetrio-translator/assets/44262309/19d08c90-78d1-4a76-a6a2-1e3642e9af3b" width="64px" height="64px">
+<img width="812" alt="tetrio_thumb" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/ec52295f-4fe8-4376-b76c-01e62d675c7b">
 
 ``tetrio-translator``는 온라인 스태커 게임 [TETR.IO](https://tetr.io/)의 일부 영어 string을 한국어로 대체해 주는 Chrome 확장 프로그램입니다.
 
@@ -20,12 +18,13 @@
 6. 1에서 압축 해제한 ``tetrio-translator`` 폴더를 찾아 선택합니다.
 7. 확장 프로그램 목록에 ``tetrio-translator``가 추가됐다면 [TETR.IO](https://tetr.io/)에 접속해 확장 프로그램이 잘 동작하는지 확인합니다.
 
-## 발생 가능한 문제점
+## 발견된 문제점
 
 1. 일부 번역되어서는 안 될 채팅이나 닉네임 등이 번역되어 한글로 표시될 수 있습니다.
 2. 일부 번역에서 오역이 발생하거나, 한 장면에서 번역된 것이 맥락에 맞지 않는 다른 장면에 번역이 적용되어 이상한 문맥이 발생할 수 있습니다.
 3. 일부 번역되지 않은 string이 있을 수 있습니다.
 4. 아직 호버 설명이 번역되지 않았습니다.
+5. 일부 사라진 string이 있을 수 있습니다.
 
 ## 라이선스
 

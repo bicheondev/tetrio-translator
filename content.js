@@ -598,7 +598,7 @@ const translations = {
     "!": " ",
     "download a .TTC file of your config you can drag into": "TETR.IO에 드래그해 가져올 수 있는 .TTC 설정 파일 다운로드",
     "to import": " ",
-    "tweak your settings for a better": "더 나은 TETR.IO 경험을 위해 설정을",
+    "tweak your settings for a better": "더 나은 TETR.IO 경험을 위해 설정을 조정하세요",
     "make": "다른 프로그램이 부드럽게 돌아가도록",
     "run slowly to keep other programs running smoothly": "TETR.IO 느리게 실행하기",
   };
@@ -606,11 +606,11 @@ const translations = {
 // CSS 폰트 적용
 const fontFace = `
     @font-face {
-    font-family: 'BMHANNAPro';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+    font-family: 'BMHANNAAir';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    }
+}
 
     @font-face {
         font-family: 'D2Coding';
@@ -622,7 +622,7 @@ const fontFace = `
     @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
     .scroller_item, #pair_ft, #mm_playercount, #pair_intro_p1, #pair_intro_p2, #scoreslide_header, #league_chat_container>h1, #mm_status_sub, #league_standing_container>h1, #leagueresult, #scoreslide_duel_match, #mm_status_header, #pair_el_p2, #replaytools, .watch_header, #zen_panel, #noreplay, .glasstop, .oob_modal input:not([type]), .oob_modal input[type=email], .oob_modal input[type=number], .oob_modal input[type=password], #menus #me_anon, #menus #me_bot, #menus #me_restricted, #victory_header, #startroom, #majorshouts .shout.rsg, #victory_also, .waterfall_item, #referee, #backtoleague, #backtoroom, #diyusi, #keybind_request, .room_config_item.room_config_spinner, .room_config_item:not([type]), .room_config_item[type=number], .stat>.stat_field, #social_relationships_find, .social_relationships_tab, #nofocus, #forfeit, #retry, .shout, .room_tab, #preload>#preload_msgs, #roommodeblurb, #roomid_container>div, #room_opts_save, #room_players_container>h1, .rc_moreinfo, .scroller_block, #menus #footer_text, #menus #header_text, #back, #list_request_back, #mm_avgtime, #leaveroom, #room_chat_container>h1, #room_ingame_warning, #room_syscontent_container, #preload>#preload_header>.preload_item, .oob_modal, .centered_block, .notification, #afterloader>p, .scroller_player, #room_switchbracket, .social_bar_header, #volume_overlay {
-        font-family: 'HUN', 'BMHANNAPro';
+        font-family: 'HUN', 'BMHANNAAir';
         }
     
     .chat_message, #league_chat_input, #ingame_chat_input, .keybind_custom, .config_input, #tetra_live .tetra_live_item, #chat_input, .scroller_input {

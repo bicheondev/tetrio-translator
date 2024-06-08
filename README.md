@@ -6,7 +6,7 @@
 
 ## 다운로드
 
-### [최신 버전 다운로드](https://github.com/bicheondev/tetrio-translator/releases/latest)
+### [최신 버전 다운로드](https://github.com/bicheondev/tetrio-translator/archive/refs/heads/main.zip)
 
 ## 설치 방법
 

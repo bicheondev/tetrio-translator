@@ -1,6 +1,9 @@
+<img width="64" alt="icon512" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/e2e48695-4dc9-43bb-9573-aa5e6dc9c36a">
+
+
 # tetrio-translator
 
-<img width="812" alt="tetrio_thumb" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/ec52295f-4fe8-4376-b76c-01e62d675c7b">
+<img alt="tetrio_thumb" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/ec52295f-4fe8-4376-b76c-01e62d675c7b">
 
 ``tetrio-translator``는 온라인 스태커 게임 [TETR.IO](https://tetr.io/)의 일부 영어 string을 한국어로 대체해 주는 Chrome 확장 프로그램입니다.
 

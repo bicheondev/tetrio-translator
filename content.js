@@ -212,7 +212,7 @@ const translations = {
     "CUSTOM": "사용자 지정",
     "play, train and experiment by your rules": "자신만의 규칙에 따라서 플레이, 훈련, 그리고 실험하세요",
     "welcome to TETRA CHANNEL!": "테트라 채널에 오신 걸 환영해요!",
-    "enter replay id, url or username and hit enter...": "리플레이 ID, URL 또는 닉네임을 입력하고 엔터를 누르세요...", // 미적용
+    "enter replay id, url or username and hit enter...": "리플레이 ID, URL 또는 닉네임을 입력하고 enter를 누르세요...", // 미적용
     "VISIT THE TETRA CHANNEL SITE": "테트라 채널 사이트 방문",
     "VIEW FULL LEADERBOARDS, COUNTRY LEADERBOARDS, USER PAGES AND MORE": "전체 순위표, 국가 순위표, 사용자 페이지 등 보기",
     "LEADERBOARDS": "리더보드",

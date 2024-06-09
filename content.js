@@ -312,6 +312,8 @@ const TRANSLATIONS = {
   "bgm": "배경",
   "joining room…": "방 참여 중…",
   "FRIEND": "친구",
+  "BAD STANDING": "나쁜 평판",
+  "one or more recent bans on record": "최근 기록된 하나 이상의 제재가 있어요",
   "STARTING IN": "게임이 곧 시작돼요…",
   "Super Lobby Mode Engaged - congratulations on hitting 100 players! Joins and leaves will be suppressed, and the winner of games in this room will earn a special profile badge!": "슈퍼 로비 모드 적용 - 플레이어 100명 돌파를 축하해요! 입퇴장 메시지는 나오지 않으며, 이 방에서 게임을 승리한 플레이어는 특별한 프로필 배지를 획득할 수 있어요!",
   "Super Lobby Mode Disengaged": "슈퍼 로비 모드 해제",

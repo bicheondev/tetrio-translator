@@ -607,6 +607,10 @@ const SELECTOR_TRANSLATIONS = [
   ["#footer_text", /welcome to (.*?)!/, "$1에 오신 걸 환영해요!"],
 ]
 
+const SELECTOR_BLACKLIST = [
+  ".chat_message.ig_chat_message:not(.system)"
+]
+
 // CSS 폰트 적용
 const fontFace = `
     @font-face {
@@ -646,6 +650,12 @@ style.appendChild(document.createTextNode(fontFace));
 document.head.appendChild(style);
 
 function translateNode(node) {
+  if (node.nodeType === Node.ELEMENT_NODE) {
+    if (SELECTOR_BLACKLIST.some(selector => node.matches(selector))) {
+      return;
+    }
+  }
+
   if (node.nodeType === Node.TEXT_NODE) {
     let text = node.textContent;
     let trimmedText = text.trim();
@@ -686,8 +696,6 @@ const observer = new MutationObserver(mutations => {
       }
 
       const html = targetElement.innerHTML;
-    console.log(html)
-
       if (regex.test(html)) {
         targetElement.innerHTML = html.replace(regex, replace);
       }

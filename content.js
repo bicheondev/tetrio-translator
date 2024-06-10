@@ -6,9 +6,9 @@ const TRANSLATIONS = {
   "TETR.IO is in ALPHA. please report bugs when you see them!": "TETR.IO는 현재 알파 버전이에요. 버그를 발견하면 신고해 주세요!",
   "by joining, you accept the ": "참여함으로써, 다음에 동의하는 것으로 간주돼요: ",
   "terms of use": "이용 약관",
-  "privacy policy": "개인 정보 처리 방침",
-  " and ": " 그리고 ",
-  "rules": "규칙",
+  // "privacy policy": "개인 정보 처리 방침", // 업데이트 필요
+  // " and ": " 그리고 ", // 업데이트 필요
+  // "rules": "규칙", // 업데이트 필요
   "PLAY": "플레이",
   "TETRA CHANNEL": "테트라 채널",
   "ABOUT": "정보",
@@ -152,7 +152,7 @@ const TRANSLATIONS = {
   "create public and private rooms to play by your rules": "규칙에 따라 플레이할 수 있는 공용 방과 개인 방을 만드세요",
   "ROOM LISTING": "방 목록",
   "join public custom games": "공개 사용자 지정 게임에 참여하세요",
-  " - games won: ": " - 이긴 판 수: ", // 미적용
+  " - games won: ": " - 이긴 판 수: ",
   "FINDING MATCH": "경기 찾는 중",
   "MATCH FOUND": "경기 찾음",
   "JOINING MATCH": "매치 참여 중",
@@ -174,14 +174,14 @@ const TRANSLATIONS = {
   "LEAVING EARLY IS PUNISHED": "빠른 탈주는 처벌받아요",
   "HOW DOES IT WORK?": "어떻게 작동하죠?",
   "Ǳ LEADERBOARDS": "Ǳ 리더보드",
-  "enter matchmaking and you will be matched up with a player of similar skill in a game of 1v1 VERSUS.": "매치 메이킹에 들어가면 비슷한 실력의 플레이어와 1대1 대결을 펼치게 돼요.", // 미적용
-  "win games to gain TR and rank up! you must play at least 10 games to see your TR. to get a RANK and enter the GLOBAL LEADERBOARDS, keep playing consistently.": "게임에서 승리하여 TR을 획득하고 순위를 올리려면 최소 10판을 플레이해야 해요. 순위를 얻고 글로벌 리더보드에 진입하려면 꾸준히 플레이하세요.", // 미적용
-  "if you leave the game early at any point, you will be awarded a loss. go conquer the ranks!": "어느 시점에서든 게임을 일찍 끝내면 패배해요. 순위를 정복하세요!", //미적용
+  "enter matchmaking and you will be matched up with a player of similar skill in a game of 1v1 VERSUS.": "매치 메이킹에 들어가면 비슷한 실력의 플레이어와 1대1 대결을 펼치게 돼요.",
+  "win games to gain TR and rank up! you must play at least 10 games to see your TR. to get a RANK and enter the GLOBAL LEADERBOARDS, keep playing consistently.": "게임에서 승리하여 TR을 획득하고 순위를 올리려면 최소 10판을 플레이해야 해요. 순위를 얻고 글로벌 리더보드에 진입하려면 꾸준히 플레이하세요.",
+  "if you leave the game early at any point, you will be awarded a loss. go conquer the ranks!": "어느 시점에서든 게임을 일찍 끝내면 패배해요. 순위를 정복하세요!",
   "face off against others and rise up through the ranks!": "다른 사람들과 대결하고 순위를 올리세요!",
-  "switching server…": "서버 이동 중…", // 미적용
-  "server switched": "서버 이동됨", //미적용
+  "switching server…": "서버 이동 중…",
+  "server switched": "서버 이동됨",
   "GAME IN PROGRESS, GOOD LUCK!": "게임 진행 중, 행운을 빌어요!",
-  "PLAYERS (": "플레이어 (", // 미적용
+  "PLAYERS (": "플레이어 (",
   "CHAT": "채팅",
   "Please remember to be civil to your opponent.": "상대방에게 예의를 지켜야 한다는 점을 잊지 마세요.",
   "TETRA LEAGUE STANDING": "테트라 리그 순위",
@@ -195,18 +195,18 @@ const TRANSLATIONS = {
   "create a private room for you and friends": "나와 친구들을 위한 비공개 방 만들기",
   "MULTIPLAYER / ROOM LISTING": "멀티플레이어 / 방 목록",
   "REFRESH": "새로고침",
-  "anons allowed: ": "익명 허용: ", // 미적용
-  ", unranked allowed: ": ", 무랭크 허용: ", // 미적용
-  " INGAME - ": " 게임 중 - ", // 미적용
-  " LOBBY -  ": " 로비 -  ", // 미적용
-  " and below -  ": " 포함 그 이하 -  ", // 미적용
+  "anons allowed: ": "익명 허용: ",
+  ", unranked allowed: ": ", 무랭크 허용: ",
+  " INGAME - ": " 게임 중 - ",
+  " LOBBY -  ": " 로비 -  ",
+  " and below -  ": " 포함 그 이하 -  ",
   "YES": "허용",
   "NO": "금지",
   "pick a room to join!": "참여할 방을 고르세요!",
-  "CURRENTLY INGAME": "게임 진행 중", // 미적용
+  "CURRENTLY INGAME": "게임 진행 중",
   "SPECTATE": "관전",
   "grid": "격자",
-  "OR": "또는", // 미적용
+  "OR": "또는",
   "ZEN": "젠",
   "EXIT": "나가기",
   "left the room": "님이 방을 나갔어요",
@@ -224,7 +224,7 @@ const TRANSLATIONS = {
   "CUSTOM": "사용자 지정",
   "play, train and experiment by your rules": "자신만의 규칙에 따라서 플레이, 훈련, 그리고 실험하세요",
   "welcome to TETRA CHANNEL!": "테트라 채널에 오신 걸 환영해요!",
-  "enter replay id, url or username and hit enter...": "리플레이 ID, URL 또는 닉네임을 입력하고 enter를 누르세요...", // 미적용
+  "enter replay id, url or username and hit enter...": "리플레이 ID, URL 또는 닉네임을 입력하고 enter를 누르세요...",
   "VISIT THE TETRA CHANNEL SITE": "테트라 채널 사이트 방문",
   "VIEW FULL LEADERBOARDS, COUNTRY LEADERBOARDS, USER PAGES AND MORE": "전체 순위표, 국가 순위표, 사용자 페이지 등 보기",
   "LEADERBOARDS": "리더보드",
@@ -235,8 +235,8 @@ const TRANSLATIONS = {
   "TETRA LEAGUE LEADERBOARDS AND XP": "테트라 리그 리더보드와 XP",
   "LIVE NOW": "현재 라이브 중",
   "TETRA NEWS": "테트라 뉴스",
-  "clear 40 lines in the shortest amount of time possible.": "최단 시간 내에 40줄을 없애세요.", // 미적용
-  "score doesn't matter here, just go for the world record!": "점수는 중요하지 않으니, 세계 신기록에 도전하세요!", // 미적용
+  "clear 40 lines in the shortest amount of time possible.": "최단 시간 내에 40줄을 없애세요.",
+  "score doesn't matter here, just go for the world record!": "점수는 중요하지 않으니, 세계 신기록에 도전하세요!",
   "PERSONAL BEST": "최고 기록",
   "RANDOM": "랜덤",
   "pick a completely random BGM for me": "완전히 랜덤으로 배경 음악을 골라 주세요",
@@ -280,9 +280,9 @@ const TRANSLATIONS = {
   "press START to begin playing": "플레이하려면 시작을 누르세요", // 볼드 필요
   "play as you wish! replays are not submitted.": "원하는 대로 플레이하세요! 리플레이는 제출되지 않아요.",
   "EXPORT SETTINGS": "설정 내보내기",
-  "lvl": "레벨", // 미적용
+  "lvl": "레벨", // 미적용, ::before
   "CLOSE": "닫기",
-  "ago": " 전", // 미적용
+  "ago": " 전",
   "GLOBAL": "세계",
   "COUNTRY": "국내",
   "Ǳ VIEW FULL PROFILE": "Ǳ 전체 프로필 보기",
@@ -318,7 +318,7 @@ const TRANSLATIONS = {
   "Super Lobby Mode Engaged - congratulations on hitting 100 players! Joins and leaves will be suppressed, and the winner of games in this room will earn a special profile badge!": "슈퍼 로비 모드 적용 - 플레이어 100명 돌파를 축하해요! 입퇴장 메시지는 나오지 않으며, 이 방에서 게임을 승리한 플레이어는 특별한 프로필 배지를 획득할 수 있어요!",
   "Super Lobby Mode Disengaged": "슈퍼 로비 모드 해제",
   "message...": "메시지...",
-  "PLAYING": "플레이 중", // 미적용
+  "PLAYING": "플레이 중",
   "click to switch to SPECTATORS": "관전자로 바꾸려면 클릭하세요",
   "ROYALE KNOCKOUT": "로얄 녹아웃",
   "PM": "오후",
@@ -343,9 +343,12 @@ const TRANSLATIONS = {
   "MATCH": "경기",
   "GAME": "게임",
   "loading SFX...": "효과음 로딩 중...",
-  "runing benchmarks...": "벤치마크 실행 중...", // 적용 불확실
   "checking for game updates...": "게임 업데이트 확인 중...",
   "loading home banner data...": "홈 배너 데이터 로딩 중...",
+  // "loading fonts... (0/1)": "폰트 로딩 중... (0/1)",
+  // "loading textures": "텍스처 로딩 중...", // 업데이트 필요
+  "initializing benchmark...": "벤치마크 초기화 중...",
+  "running benchmark...": "벤치마크 실행 중...",
   "GENERAL": "일반",
   "OBJECTIVE": "목표",
   "relax or train in a neverending mode! your progress is stored across games.": "무한 반복 모드에서 휴식을 취하거나 훈련하세요! 진행 상황은 게임 간에 저장돼요.",

@@ -4,7 +4,6 @@
   "version": "1.0",
   "description": "한국어로 즐기는 TETR.IO",
   "permissions": [
-    "activeTab"
   ],
   "host_permissions": [
     "https://tetr.io/*"

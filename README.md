@@ -1,5 +1,4 @@
-<img width="64" alt="icon512" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/e2e48695-4dc9-43bb-9573-aa5e6dc9c36a">
-
+<img width="4140" alt="Group 4" src="https://github.com/bicheondev/tetrio-translator/assets/44262309/6805bc10-bf68-4d3b-9085-a2f5f002755a">
 
 # tetrio-translator
 

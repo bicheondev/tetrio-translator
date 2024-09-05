@@ -18,6 +18,7 @@ const TRANSLATIONS = {
   "hours played": "시간 플레이됨",
   "good to see you again!": "다시 만나서 반가워요!",
   "BACK": "뒤로",
+  "I'M NOT MULTIACCOUNTING": "여러 계정을 만드는 것이 아니예요",
   "I FORGOT": "잊어버렸어요",
   "LOGIN": "로그인",
   "password incorrect": "비밀번호가 틀렸어요",
@@ -36,7 +37,8 @@ const TRANSLATIONS = {
   "ANONYMOUS USERS CANNOT SET RECORDS": "익명 유저는 기록을 세울 수 없어요", // 미적용, data-block-reason
   "ANONYMOUS USERS MAY NOT ENTER TETRA LEAGUE": "익명 유저는 테트라 리그에 진입할 수 없어요", // 미적용, data-block-reason
   "Ǳ VIEW FULL": "Ǳ 전체 보기",
-  "expert quick play": "전문가 빠른 플레이",
+  "expert quick play": "전문가용 빠른 플레이",
+  "EXPERT QUICK PLAY": "전문가용 빠른 플레이",
   "WORLD": "세계",
   "KOREA, REPUBLIC OF": "대한민국",
   "FRIENDS": "친구",
@@ -122,7 +124,7 @@ const TRANSLATIONS = {
   "HOME": "홈",
   "challenge yourself and top the leaderboards": "자신에게 도전하고 리더보드 정상을 차지하세요",
   "leaderboards, replays and more": "리더보드, 리플레이, 그리고 더",
-  " leaderboards, achievements, replays and more": " 리더보드, 업적, 리플레이, 그리고 더",
+  "leaderboards, achievements, replays and more": "리더보드, 업적, 리플레이, 그리고 더",
   "CONFIG": "설정",
   "connected to server": "서버에 연결됐어요",
   "enter room id or url and hit enter...": "방 ID 또는 링크를 입력하고 enter를 누르세요...",
@@ -151,7 +153,7 @@ const TRANSLATIONS = {
   "If someone outside of your friends list messages you, they'll appear here.": "친구 목록에 없는 사람이 내게 메시지를 보내면 여기에 표시돼요.",
   "You haven't blocked anyone yet.": "아직 차단한 사람이 없어요.",
   "NOTIFICATIONS": "알림",
-  "You forfeited a ranked match": "랭크 경기에서 기권패했어요",
+  "You forfeited a ranked match": "랭크 경기에서 기권했어요",
   "You have been awarded a loss for this match. Please ensure you have the time and internet connection to play! Repeated forfeits are punished (and will be automatically punished in the future). Thank you for understanding!": "이 경기에서 패배 처리됐어요. 플레이할 수 있는 시간이 있는지, 인터넷 연결이 가능한지 확인해 주세요! 반복적인 기권패는 처벌을 받게 되며, 향후에도 자동으로 처벌을 받게 돼요. 이해해 주셔서 고마워요!",
   "pick a game mode": "게임 모드를 고르세요",
   "fight players of your skill in ranked duels": "랭크 경기에서 실력이 비슷한 플레이어와 싸워 보세요",
@@ -163,6 +165,7 @@ const TRANSLATIONS = {
   "the further up the tower, the stronger the opponents!": "탑 위로 올라갈수록 상대는 더 강해져요!",
   "leaderboards reset every week, how far can you get?": "리더보드는 매주 초기화돼요, 얼마나 멀리 갈 수 있나요?",
   "THIS WEEK'S PERSONAL BEST": "이번 주의 개인 최고 기록",
+  "THIS WEEK'S PERSONAL RANK": "이번 주의 개인 최고 랭크",
   "ADD OR REMOVE MODS": "모드 추가 또는 제거",
   "EXPERT MODE": "전문가 모드",
   "a less lenient challenge, for those who dare": "감히 도전하는 사람들을 위한, 덜 관대한 도전",
@@ -188,16 +191,17 @@ const TRANSLATIONS = {
   "reach floor 8 to unlock": "8층에 도달하여 잠금해제",
   "DUO": "듀오",
   "scale the tower together with someone you hold close": "가까운 사람과 함께 탑을 오를 수 있어요",
-  "hall of beginnings": "시작의 전당",
-  "HALL OF BEGINNINGS": "시작의 전당",
+  "READY": "준비",
+  "READY!": "준비됨!",
+  "WAITING": "기다리는 중",
+  "waiting for player": "플레이어를 기다리는 중",
+  "CLICK TO INVITE A FRIEND": "클릭하여 친구 초대하기",
   "reset": "초기화",
   "YOUR FINAL ALTITUDE": "최종 고도",
   "THIS WEEK'S COUNTRY RANK": "이번 주의 국가 순위",
   "THIS WEEK'S GLOBAL RANK": "이번 주의 글로벌 순위",
   "SEND TO CHAT": "채팅에 보내기",
   "FLOOR": "층",
-  "1: hall of beginnings": "1: 시작의 전당",
-  "2: the hotel": "호텔",
   "KO's": "KO 수",
   "average CLIMB SPEED": "평균 등반 속력",
   "peak CLIMB SPEED": "최고 등반 속력",
@@ -221,6 +225,8 @@ const TRANSLATIONS = {
   "ROOM LISTING": "방 목록",
   "join public custom games": "공개 사용자 지정 게임에 참여하세요",
   "join public games": "공개 게임에 참여하세요",
+  "ROYALE": "로얄",
+  "face off against the best in a single lobby shared by all!": "모두가 공유하는 단일 로비에서 최고가 되세요!",
   " - games won: ": " - 이긴 판 수: ",
   "FINDING MATCH": "경기 찾는 중",
   "MATCH FOUND": "경기 찾음",
@@ -236,6 +242,7 @@ const TRANSLATIONS = {
   "FT7": "7선승",
   ", round ": ", 라운드 ",
   "FINISH!": "종료!",
+  "FINISH": "종료",
   "ABORTED!": "중단됨!",
   "MATCH POINT": "매치 포인트",
   "TIEBREAKER": "타이브레이커",
@@ -267,7 +274,7 @@ const TRANSLATIONS = {
   "TETRA LEAGUE / RESULTS": "테트라 리그 / 결과",
   "DEFEAT": "패배",
   "VICTORY": "승리",
-  "Welcome to Quick Play chat! Please remember to be civil to your opponents - chat is actively monitored.": "빠른 플레이 채팅에 오신 것을 환영해요! 채팅은 적극적으로 모니터링되고 있으니 상대방에게 예의를 지켜야 한다는 점을 잊지 마세요.",
+  
   "PUBLIC ROOM": "공개 방",
   "create a public room anyone can join": "누구나 참여할 수 있는 공개 방 만들기",
   "PRIVATE ROOM": "비공개 방",
@@ -407,7 +414,7 @@ const TRANSLATIONS = {
   "TOWER CLIMBER": "탑 클라이머",
   "Tower Climber": "탑 클라이머",
   "meters climbed": "미터 오름",
-  '"Have I been here before..?"': '"내가 여기 와본 적이 있던가..?"',
+  '"Have I been here before..?"': '"내가 여기 와 본 적이 있던가..?"',
   "WHATEVER IT TAKES": "무슨 일이 있더라도",
   "Whatever It Takes": "무슨 일이 있더라도",
   "players KO'd in Quick Play": "명의 플레이어들 KO됨",
@@ -851,6 +858,7 @@ const TRANSLATIONS = {
   "left counter slot 3": "왼쪽 카운터 슬롯 3",
   "left counter slot 4": "왼쪽 카운터 슬롯 4",
   "right counter slot": "오른쪽 카운터 슬롯",
+  "use the default option": "기본 설정 사용",
   "EMPTY": "비어 있음",
   "---empty---": "---비어 있음---",
   "---default---": "---기본---",
@@ -997,6 +1005,9 @@ const TRANSLATIONS = {
   "FEW": "적게",
   "LOTS": "많게",
   "background visibility": "배경 가시성",
+  "bloom filter power": "블룸 필터 세기",
+  "chromatic aberration": "색수차",
+  "flashwave power": "플래시웨이브 세기",
   "you just created an online game - you can start the game once two players are in the room (and not spectating)!": "방금 온라인 게임을 만들었어요 - (관전하지 않는) 두 명의 플레이어가 방에 있으면 게임을 시작할 수 있어요!",
   "you just joined an online game - the game will start whenever the HOST presses START. good luck!": "방금 온라인 게임에 참여했어요 - 방장이 언제든 시작을 누르면 게임이 시작돼요. 행운을 빌어요!",
   "you just joined an online game - the HOST can start the game once two players are in the room (and not spectating)!": "방금 온라인 게임에 참여했어요 - (관전하지 않는) 두 명의 플레이어가 방에 있으면 방장이 게임을 시작할 수 있어요!",
@@ -1146,7 +1157,7 @@ const TRANSLATIONS = {
   "keep shuffling a bag of the 7 tetrominoes with one random extra tetromino": "7개 테트로미노의 가방 하나를 한 개의 랜덤한 여분 테트로미노와 계속 섞어요",
   "7+2-BAG": "7+2-백",
   //"7+2-bag": "7+2-백",
-    "keep shuffling a bag of the 7 tetrominoes with two random extra tetrominoes": "7개 테트로미노의 가방 하나를 두 개의 랜덤한 여분 테트로미노와 계속 섞어요",
+  "keep shuffling a bag of the 7 tetrominoes with two random extra tetrominoes": "7개 테트로미노의 가방 하나를 두 개의 랜덤한 여분 테트로미노와 계속 섞어요",
   "7+X-BAG": "7+X-백",
   //"7+x-bag": "7+x-백",
   "keep shuffling a bag of the 7 tetrominoes. the first few bags contain a few extras.": "7개 테트로미노의 가방 하나를 계속 섞어요. 처음 몇 가방에는 몇 개의 여분이 들어 있어요.",
@@ -1257,33 +1268,75 @@ const TRANSLATIONS = {
   "Please be civil. Staff will never ask for your credentials.": "예의를 지켜 주세요. 스태프는 절대로 증명서를 요구하지 않아요.",
   "PROFILE": "프로필",
   "GIFT": "선물하기",
+  "this is your first game this week, play more to track your improvement": "이번 주 첫 번째 게임이니, 실력 향상을 추적하려면 더 많이 플레이하세요",
+  "this is your first game, play more to track your improvement": "이번이 첫 게임이니, 실력 향상을 추적하려면 더 많이 플레이하세요",
+  "LEAVE CURRENT GAME?": "현재 게임에서 나가시겠어요?",
+  "you're still in game. abandon the current game?": "아직 게임 중이에요. 현재 게임을 포기하시겠어요?",
+  "LEAVE": "나가기",
+  "MATCH SUSPENDED": "매치 정지됨",
+  "Your opponent has disconnected, but may still return.": "상대방의 연결이 끊어졌지만, 여전히 돌아올 수 있어요.",
+  "You will gain points as you wait. If your opponent does not return, you win by default.": "기다리면 점수를 얻게 돼요. 상대가 돌아오지 않으면 기본적으로 승리하게 돼요.",
+  "RESUMING MATCH": "경기 재개 중",
+  "YOU MUST RETURN TO YOUR MATCH": "경기로 돌아가야 해요",
+  "Abandon Match": "경기 포기하기",
+  "The match will be declared No Contest.": "이 경기는 무승부로 선언돼요.",
+  "No player will be penalized, no player will gain or lose TR.": "불이익을 받지 않으며, TR을 얻거나 잃지 않을 거예요.",
+  "I'm fine with that": "괜찮아요",
+  "NEXT POINT IN ": "다음 점수까지 ",
+  "VICTORY IN ": "승리까지 ",
+
+  "COUNTRY RANK": "국가 순위",
+  "GLOBAL RANK": "글로벌 순위",
+
+  "Enjoyed Duo?": "듀오를 즐기셨나요?",
+
+  "THIS TETR.IO CLIENT HAS BEEN MODIFIED": "이 TETR.IO 클라이언트는 수정되었어요",
+  "Third-party modifications to TETR.IO are not supported by the TETR.IO team and may have compatibility, performance and safety issues.": "TETR.IO에 대한 제3자의 수정은 TETR.IO 팀에서 지원하지 않으며 호환성, 성능 및 안전 문제가 있을 수 있어요.",
+  "Do not report any issues while using third-party modifications. Modifications that alter gameplay are strictly forbidden.": "제3자 수정 사항을 사용하는 동안에는 어떤 문제도 신고하지 마세요. 게임플레이를 변경하는 수정은 엄격히 금지돼요.",
+  "This message will disappear after 10 seconds": "이 메시지는 10초 후에 사라져요",
 };
 
 /**
- * @type {[string, RegExp, string][]}
- */
+* @type {[string, RegExp, string][]}
+*/
 const SELECTOR_TRANSLATIONS = [
-  ["#footer_text", /welcome to (.*?)!/, "$1에 오신 걸 환영해요!"],
-  ["#sig_config > p", /tweak your&nbsp;(.*?)&nbsp;experience/, "$1 경험을 조정하세요"],
-  ["#sig_about > p", /all about&nbsp;<span class="cheeky">(.*?)<\/span>(.*)/, "<span class=\"cheeky\">$1</span>$2에 관한 모든 것"],
-  ["#footer_text", /tweak your settings for a better (.*?) experience/, "더 나은 $1 경험을 위해 설정을 조정하세요"],
-  ["#config_export > p", /download a .TTC file of your config you can drag into&nbsp;(.*?)&nbsp;to import/, "$1에 드래그해 가져올 수 있는 .TTC 설정 파일 내려받기"],
-  ["#video_powersave", /make&nbsp;(.*?)&nbsp;run slowly to keep other programs running smoothly/, "다른 프로그램이 부드럽게 돌아가도록 $1 느리게 실행하기"],
-  ["#sys_guide > h2", /welcome to&nbsp;(.*?)!/, "$1에 오신 걸 환영해요!"],
-  [".scroller_block > h2", /welcome to&nbsp;(.*?)!/, "$1에 오신 걸 환영해요!"],
-  ["#sys_guide > p", /(.*?)&nbsp;is a free familiar yet fast-paced online stacker in the same genre as tetris, and played by millions across the globe./, "$1는 테트리스와 같은 장르의 친숙하면서도 빠르게 진행되는 무료 온라인 스태커 게임으로, 전 세계 수백만 명이 즐기고 있어요."],
-  [".scroller_block > p", /(.*?)&nbsp;is a free-to-win familiar yet fast-paced online stacker in the same genre as tetris, and played by millions across the globe./, "$1는 전 세계 수백만 명이 플레이하고 있는, 무료로 즐길 수 있는 테트리스와 같은 장르의 친숙하면서도 빠르게 진행되는 온라인 스태커 게임이에요."],
-  ["#footer_text", /thank you for playing (.*?)!/, "$1를 플레이해 주셔서 고마워요!"],
-  ["#a.electron_jump_also.ns", /get&nbsp;(.*?)&nbsp;DESKTOP/, "$1 데스크톱 받기"], // 왜 안 될까?
-  ["#div.electron_jump.ns", /open in&nbsp;(.*?)&nbsp;DESKTOP/, "$1 데스크톱에서 열기"], // 왜 안 될까?
-  ["#about_desktop > h1", /(.*?)&nbsp;DESKTOP/, "$1 데스크톱"],
-  ["#footer_text", /change settings in your (.*?) account/, "$1 계정 속 설정을 변경하세요"],
-  ["#about_supporter > h1", /^support&nbsp;(.*?)$/gi, "$1 지원"],
-  // ["#sig_about > p", /follow updates on&nbsp;(.*?), give feedback and have fun/, "$1의 업데이트를 따라가고, 피드백을 주고 즐기기"],
+  ["#footer_text", "#footer", /welcome to (.*?)!/, "$1에 오신 걸 환영해요!"],
+  ["#sig_config > p", "#sig_config", /tweak your&nbsp;(.*?)&nbsp;experience/, "$1 경험을 조정하세요"],
+  ["#sig_about > p", "#sig_about", /all about&nbsp;<span class="cheeky">(.*?)<\/span>(.*)/, "<span class=\"cheeky\">$1</span>$2에 관한 모든 것"],
+  ["#footer_text", "#footer", /tweak your settings for a better (.*?) experience/, "더 나은 $1 경험을 위해 설정을 조정하세요"],
+  ["#config_export > p", "#config_export", /download a .TTC file of your config you can drag into&nbsp;(.*?)&nbsp;to import/, "$1에 드래그해 가져올 수 있는 .TTC 설정 파일 내려받기"],
+  ["#video_powersave", "#video_powersave", /make&nbsp;(.*?)&nbsp;run slowly to keep other programs running smoothly/, "다른 프로그램이 부드럽게 돌아가도록 $1 느리게 실행하기"],
+  ["#sys_guide > h2", "#sys_guide", /welcome to&nbsp;(.*?)!/, "$1에 오신 걸 환영해요!"],
+  [".scroller_block > h2", ".scroller_block", /welcome to&nbsp;(.*?)!/, "$1에 오신 걸 환영해요!"],
+  ["#sys_guide > p", "#sys_guide", /(.*?)&nbsp;is a free familiar yet fast-paced online stacker in the same genre as tetris, and played by millions across the globe./, "$1는 테트리스와 같은 장르의 친숙하면서도 빠르게 진행되는 무료 온라인 스태커 게임으로, 전 세계 수백만 명이 즐기고 있어요."],
+  [".scroller_block > p", ".scroller_block", /(.*?)&nbsp;is a free-to-win familiar yet fast-paced online stacker in the same genre as tetris, and played by millions across the globe./, "$1는 전 세계 수백만 명이 플레이하고 있는, 무료로 즐길 수 있는 테트리스와 같은 장르의 친숙하면서도 빠르게 진행되는 온라인 스태커 게임이에요."],
+  ["#footer_text", "#footer_text", /thank you for playing (.*?)!/, "$1를 플레이해 주셔서 고마워요!"],
+  //["#a.electron_jump_also.ns", /get&nbsp;(.*?)&nbsp;DESKTOP/, "$1 데스크톱 받기"], // 왜 안 될까?
+  //["#div.electron_jump.ns", /open in&nbsp;(.*?)&nbsp;DESKTOP/, "$1 데스크톱에서 열기"], // 왜 안 될까?
+  ["#about_desktop > h1", "#about_desktop", /(.*?)&nbsp;DESKTOP/, "$1 데스크톱"],
+  ["#enter_matchmaking > p", "#enter_matchmaking", /(.*?) CLICK TO CANCEL/, "$1 클릭하여 취소"],
+  ["#waterfall > div > p", "#waterfall", /(.*?) ko'd by ((.*?)*)/, "$1이(가) $2에 의해 처치 당함"],
+  ["#waterfall > div > p", "#waterfall", /ko'd by ((.*?)*)/, "$1에 의해 처치 당함"],
+  ["#waterfall > div > p", "#waterfall", /ko'd ((.*?)*)/, "$1을(를) 처치함"],
+  ["#zenith_deck_infos > div > p", "#zenith_deck_infos", /reach floor (.*?) to unlock/, "$1층에 도달하여 잠금 해제"],
+  [".rank_sub", ".rank_sub", /TOP (.*?)%/, "상위 $1%"],
+  [".rank_sub", ".rank_sub", /(.*?) improvement • last PB was (.*?) ago/, "$1 향상됨 • 마지막 개인 최고 기록은 $2 전이었어요"],
+  [".rank_sub", ".rank_sub", /(.*?) behind • last PB was (.*?) ago/, "$1 뒤처짐 • 마지막 개인 최고 기록은 $2 전이었어요"],
+  [".menuslide_rollup", ".menuslide_rollup", /SPECTATE ((.*?)*)/, "$1 관전하기"],
+  ["#footer_text", "#footer_text", /change settings in your (.*?) account/, "$1 계정 속 설정을 변경하세요"],
+  ["#about_supporter > h1", "#about_supporter", /^support&nbsp;(.*?)$/gi, "$1 지원"],
+  [".notification > p", "#notifications", /The Duo mod is a <b>TETR.IO Supporter-only feature<\/b> — one of the two players needs Supporter.<br><b>(.*?)<\/b> paid for you this time, but if you want to play Duo with someone who doesn't have Supporter yet, why not <b>help support the game<\/b> and pick some up\?/, "듀오 모드는 <b>TETR.IO 서포터 전용 기능이에요<\/b><br> — 두 플레이어 중 한 명은 서포터가 필요해요.<br>이번에는 <b>$1</b> 님이 비용을 지불했지만, 아직 서포터가 없는 사람과 듀오를 플레이하고 싶으시다면, <b>게임 지원을 도와주시고<\/b> 하나 갖고 가는 건 어떨까요?"],
+  ["#registeralt_form", "#registeralt_form", /are you&nbsp;(.*?)\?/, "$1 님이신가요?"],
+  ["#registeralt_form > p", "#registeralt_form", /TETR.IO has a policy of&nbsp;<b>one account per person \(anonymous accounts excluded\)<\/b>. making multiple accounts may result in permanent restriction of all your accounts./, "TETR.IO에는 <b>1인 1계정(익명 계정 제외)</b> 정책이 있어요. 여러 개의 계정을 만들면 모든 계정이 영구적으로 제한될 수 있어요."],
+  ["#registeralt_form > .modal_also", "#registeralt_form", /read the&nbsp;<a href="\/about\/rules\/#ap" target="_blank">full policy<\/a>&nbsp;for more info. in doubt, or if you believe your usage of a second account is justified, please&nbsp;<a href="\/about\/support\/" target="_blank">contact support<\/a>./, '자세한 내용은&nbsp;<a href="/about/rules/#ap" target="_blank">정책 전문</a>&nbsp;을 참조하세요. 의심스럽거나 두 번째 계정 사용이 정당하다고 생각되는 경우, <a href="/about/support/" target="_blank">지원팀에 문의</a>&nbsp;하세요.'],
+  [".ig_chat_message > p", "#ingame_chat_container", /Welcome to Quick Play chat! Please remember to be civil to your opponents - chat is actively monitored.\n\nThis chat is linked with (.*?)our Discord server<\/a>\./, "빠른 플레이 채팅에 오신 것을 환영해요! 채팅은 적극적으로 모니터링되고 있으니 상대방에게 예의를 지켜야 한다는 점을 잊지 마세요.\n\n이 채팅은 $1저희 Discord 서버</a>와 연결되어 있어요."],
 ]
+var compiledSelectors = {}
 
 // CSS 폰트 적용
 const fontFace = `
+  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp.min.css");
+
   @font-face {
     font-family: 'BMHANNAAir';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
@@ -1298,7 +1351,12 @@ const fontFace = `
     font-style: normal;
   }
 
-  @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+ 
+
+  .replayid::before {
+    font-family: 'HUN', 'BMHANNAAir' !important;
+    content: "리플레이 ID:" !important;
+  }
 `;
 
 const style = document.createElement('style');
@@ -1308,26 +1366,27 @@ document.head.appendChild(style);
 
 function replaceFontFamily(element) {
   if (element.nodeType === Node.ELEMENT_NODE) {
-    const computedStyle = window.getComputedStyle(element);
-    if (computedStyle.fontFamily.trim() === 'HUN' && !element.matches('#now_playing_jp')) {
-      element.style.fontFamily = `'HUN', 'BMHANNAAir'`;
-    }
-    if (computedStyle.fontFamily.trim() === 'PFW') {
-      element.style.fontFamily = `'PFW', 'Orbit-Regular'`;
-    }
-    if (computedStyle.fontFamily.trim() === 'PFW, sans-serif') {
-      element.style.fontFamily = `'PFW', 'Orbit-Regular'`;
-    }
-    if (computedStyle.fontFamily.trim() === 'C') {
-      element.style.fontFamily = `'C', 'Pretendard JP'`;
-    }
+      const computedStyle = window.getComputedStyle(element);
+      const fnt = computedStyle.fontFamily.trim();
+      if (fnt === 'HUN' && !element.matches('#now_playing_jp')) {
+          element.style.fontFamily = `'HUN', 'BMHANNAAir'`;
+      }
+      if (fnt === 'PFW') {
+          element.style.fontFamily = `'PFW', 'Orbit-Regular'`;
+      }
+      if (fnt === 'PFW, sans-serif') {
+          element.style.fontFamily = `'PFW', 'Orbit-Regular'`;
+      }
+      if (fnt === 'C' || fnt == '"C"') {
+          element.style.fontFamily = `'C', 'Pretendard JP'`;
+      }
   }
 }
 
 function traverseAndReplaceFonts(node) {
   replaceFontFamily(node);
   node.childNodes.forEach(childNode => {
-    traverseAndReplaceFonts(childNode);
+      traverseAndReplaceFonts(childNode);
   });
 }
 
@@ -1335,91 +1394,162 @@ function isBlacklisted(node) {
   // 노드가 .chat_message.ig_chat_message.roomownerchat을 포함하고 있는지 확인
   // 노드가 .chat_message.system p를 포함하고 있지 않은 경우에만 블랙리스트 처리
   if (node.matches(".chat_message.ig_chat_message.roomownerchat")) {
-    // 노드가 .chat_message.system p 자손을 포함하는 경우 블랙리스트 처리하지 않음
-    if (node.querySelector(".chat_message.system p")) {
-      return false;
-    }
-    return true;
+      // 노드가 .chat_message.system p 자손을 포함하는 경우 블랙리스트 처리하지 않음
+      if (node.querySelector(".chat_message.system p")) {
+          return false;
+      }
+      return true;
   }
+  // 노드가 퀵플레이 leaderboard 안에 있는 유저네임이면 블랙리스트 처리
+  if (node.matches(".rssp_username, .rssp_username_longduo")) {
+      return true;
+  }
+  // 노드가 테트라 리그 매칭 화면에 있는 유저네임이면 블랙리스트 처리
+  if (node.matches("#pair_name_p1, #pair_name_p2")) {
+      return true;
+  }
+  // 노드가 테트라 리그 점수 화면에 있는 유저네임이면 블랙리스트 처리
+  if (node.matches("#waitstate_a_username, #waitstate_b_username")) {
+      return true;
+  }
+  // 노드가 유저 정보창에 있는 유저네임이면 블랙리스트 처리
+  if (node.matches(".tetra_modal>.avatar+h2")) {
+      return true;
+  }
+  // 노드가 우측 상단 프로필에 있는 유저네임이면 블랙리스트 처리
+  if (node.matches("#me_username")) {
+      return true;
+  }
+  // 아 이젠 쓰기도 귀찮네 대충 방
+  if (node.matches(".scroller_player>h1")) {
+      return true;
+  }
+
   return false;
 }
 
 function translateNode(node) {
   if (node.nodeType === Node.ELEMENT_NODE) {
-    // 블랙리스트에 포함된 노드 건너뛰기
-    if (isBlacklisted(node)) {
-      return;
-    }
+      // 블랙리스트에 포함된 노드 건너뛰기
+      if (isBlacklisted(node)) {
+          return;
+      }
 
-    // .chat_message.ig_chat_message 요소 필터링 (다른 클래스가 없는 경우)
-    if (node.matches(".chat_message.ig_chat_message") && node.classList.length === 2) {
-      return;
-    }
+      // .chat_message.ig_chat_message 요소 필터링 (다른 클래스가 없는 경우)
+      if (node.matches(".chat_message.ig_chat_message") && node.classList.length === 2) {
+          return;
+      }
   }
 
   if (node.nodeType === Node.TEXT_NODE) {
-    let text = node.textContent;
-    let trimmedText = text.trim();
-    // 원본 텍스트를 확인하여 앞뒤 공백을 유지
-    if (TRANSLATIONS[text]) {
-      node.textContent = TRANSLATIONS[text];
-    } else if (TRANSLATIONS[trimmedText]) {
-      node.textContent = text.replace(trimmedText, TRANSLATIONS[trimmedText]);
-    }
-  } else if (node.nodeType === Node.ELEMENT_NODE) {
-    if (node.tagName === 'INPUT' && node.getAttribute('placeholder')) {
-      let placeholderText = node.getAttribute('placeholder');
-      let trimmedPlaceholder = placeholderText.trim();
-      if (TRANSLATIONS[placeholderText]) {
-        node.setAttribute('placeholder', TRANSLATIONS[placeholderText]);
-      } else if (TRANSLATIONS[trimmedPlaceholder]) {
-        node.setAttribute('placeholder', placeholderText.replace(trimmedPlaceholder, TRANSLATIONS[trimmedPlaceholder]));
+      let text = node.textContent;
+      let trimmedText = text.trim();
+      // 원본 텍스트를 확인하여 앞뒤 공백을 유지
+      if (TRANSLATIONS[text]) {
+          node.textContent = TRANSLATIONS[text];
+      } else if (TRANSLATIONS[trimmedText]) {
+          node.textContent = text.replace(trimmedText, TRANSLATIONS[trimmedText]);
       }
-    }
-    node.childNodes.forEach(childNode => {
-      translateNode(childNode);
-    });
+  } else if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.tagName === 'INPUT' && node.getAttribute('placeholder')) {
+          let placeholderText = node.getAttribute('placeholder');
+          let trimmedPlaceholder = placeholderText.trim();
+          if (TRANSLATIONS[placeholderText]) {
+              node.setAttribute('placeholder', TRANSLATIONS[placeholderText]);
+          } else if (TRANSLATIONS[trimmedPlaceholder]) {
+              node.setAttribute('placeholder', placeholderText.replace(trimmedPlaceholder, TRANSLATIONS[trimmedPlaceholder]));
+          }
+      }
+      node.childNodes.forEach(childNode => {
+          translateNode(childNode);
+      });
   }
 }
 
-function translatePage() {
-  document.querySelectorAll('body *').forEach(node => {
-    translateNode(node);
-  });
+function parser(querys) {
+  return () =>  document.querySelectorAll(querys);
 }
 
+for (const [selector, detectSelector, regex, replace] of SELECTOR_TRANSLATIONS) {
+  console.log("compiling selectors");
+  compiledSelectors[selector] = parser(selector);
+  if (!(detectSelector in compiledSelectors))
+      compiledSelectors[detectSelector] = parser(detectSelector);
+}
+
+async function translatePage() {
+  document.querySelectorAll('body *').forEach(node => {
+      translateNode(node);
+  });
+  for (const [selector, detectSelector, regex, replace] of SELECTOR_TRANSLATIONS) {
+      const targetElements = compiledSelectors[selector]();
+
+      for (var targetElement of targetElements) {
+          if (targetElement == null) continue;
+          const html = targetElement.innerHTML;
+          if (html in TRANSLATIONS) continue;
+          if (regex.test(html)) {
+              targetElement.innerHTML = html.replace(regex, replace);
+          }
+      }
+  }
+  for (var jptxt of parser(".jp_kana")()) {
+      jptxt.style.fontFamily = `'HUN'`;
+  }
+
+}
+
+
+
+
 const observer = new MutationObserver(mutations => {
-  mutations.forEach(mutation => {
-    for (const [selector, regex, replace] of SELECTOR_TRANSLATIONS) {
-      const targetElement = document.body.querySelector(selector);
-      if (!targetElement) {
-        continue;
-      }
+  mutations.forEach(async mutation => {
 
-      const html = targetElement.innerHTML;
-      if (regex.test(html)) {
-        targetElement.innerHTML = html.replace(regex, replace);
+      if (mutation.type === 'childList') {
+          mutation.addedNodes.forEach(node => {
+              translateNode(node);
+              requestAnimationFrame(() => traverseAndReplaceFonts(node));  // 새로 추가된 노드에도 폰트 적용
+          });
       }
-    }
-
-    if (mutation.type === 'childList') {
-      mutation.addedNodes.forEach(node => {
-        translateNode(node);
-        requestAnimationFrame(() => traverseAndReplaceFonts(node));  // 새로 추가된 노드에도 폰트 적용
-      });
-    }
   });
 });
 
 // body 요소에서 자손을 포함한 모든 변경 사항을 감시
-observer.observe(document.body, {childList: true, subtree: true});
+observer.observe(document.body, { childList: true, subtree: true });
 
-// 페이지 로드 시 폰트 교체 및 번역 실행
-window.onload = function() {
-  requestAnimationFrame(() => {
-    document.querySelectorAll('body *').forEach(element => {
-      replaceFontFamily(element);
-    });
-    translatePage();
+for (const [selector, detectSelector, regex, replace] of SELECTOR_TRANSLATIONS) {
+  var obs = new MutationObserver(mutations => {
+      (async () => {
+          const targetElements = compiledSelectors[selector]();
+
+          for (var targetElement of targetElements) {
+              if (targetElement == null) continue;
+              const html = targetElement.innerHTML;
+              if (html in TRANSLATIONS) continue;
+              if (regex.test(html)) {
+                  targetElement.innerHTML = html.replace(regex, replace);
+              }
+          }
+      })();
   });
-};
+  var sel = compiledSelectors[detectSelector]();
+  console.log(sel);
+  for (var s of sel) {
+      obs.observe(s, { childList: true, subtree: true });
+  }
+}
+// 페이지 로드 시 폰트 교체 및 번역 실행
+/*window.onload = function() {
+requestAnimationFrame(() => {
+  document.querySelectorAll('body *').forEach(element => {
+    replaceFontFamily(element);
+  });
+  translatePage();
+});
+};*/
+requestAnimationFrame(() => {
+  document.querySelectorAll('body *').forEach(element => {
+      replaceFontFamily(element);
+  });
+  translatePage();
+});

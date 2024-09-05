@@ -1,10 +1,8 @@
 {
   "manifest_version": 3,
   "name": "TETR.IO 한국어 패치",
-  "version": "1.0",
+  "version": "1.1",
   "description": "한국어로 즐기는 TETR.IO",
-  "permissions": [
-  ],
   "host_permissions": [
     "https://tetr.io/*"
   ],
